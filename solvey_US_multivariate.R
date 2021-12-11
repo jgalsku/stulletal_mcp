@@ -81,16 +81,7 @@ multivariate_fit_wrapper <- function(data_dir,
   J <- get_J(mod_spec)
   K <- get_K(mod_spec)
 
-  ind_EF   <- which(  endsWith(problem$var_names,'EF' ))
-  ind_Oss  <- which(  endsWith(problem$var_names,'Oss'))
-  ind_Dent <- which(startsWith(problem$var_names,'ma'))
-  ind_LB   <- J + (1:K)
-
-  cdep_groups <- rep(NA,J+K)
-  cdep_groups[ind_EF]   <- 1
-  cdep_groups[ind_Oss]  <- 2
-  cdep_groups[ind_Dent] <- 3
-  cdep_groups[ind_LB]   <- 4
+  cdep_groups <- 1:(J+K)
 
   mod_spec$cdep_groups <- cdep_groups
   mod_spec$cdep_spec = "dep"
