@@ -1,0 +1,38 @@
+---
+title: "Cross-validation report for rand_num (k = 1)"
+output: html_document
+---
+# Summary information
+1710 non-missing observations  
+Candidate model tolerance is cand_tol = 0.05  
+
+# Negative log-likelihood by model and fold
+<pre>
+                       fold1    fold2    fold3    fold4  
+pow-law-const       72.03661 76.86741 76.07576 99.69782  
+pow-law-lin-pos-int 72.03658 77.07491 76.14675 99.69789  
+</pre>
+# Automated model selection
+<pre>
+                model reject reject-reason neg-log-lik delta-neg-log-lik model-rank  
+1       pow-law-const  FALSE                  324.6776         0.0000000          1  
+2 pow-law-lin-pos-int  FALSE                  324.9561         0.2785508          2  
+</pre>
+# Univariate fits for each model
+## pow_law_const  
+<pre>
+              main        fold1        fold2        fold3        fold4  
+c1     0.008534585 2.965331e-03 0.0028179939 5.936422e-03 0.2645943158  
+c2     0.000144897 7.316974e-05 0.0000904296 6.878664e-05 0.0009460017  
+c3     0.498374601 4.942145e-01 0.4942384844 5.090886e-01 0.4935723020  
+kappa1 0.291952711 2.939143e-01 0.2927942191 2.931516e-01 0.2876477622  
+</pre>
+## pow_law_lin_pos_int  
+<pre>
+               main        fold1        fold2        fold3        fold4  
+c1     4.285365e-03 2.381979e-03 1.523368e-03 4.013371e-03 2.302064e-01  
+c2     8.431778e-05 3.637597e-05 3.825022e-05 4.002954e-05 1.260209e-03  
+c3     4.984388e-01 4.942519e-01 4.944454e-01 5.093396e-01 4.931353e-01  
+kappa1 2.919519e-01 2.939140e-01 2.788245e-01 2.822423e-01 2.876460e-01  
+kappa2 4.339388e-08 2.053684e-08 8.313873e-04 6.450667e-04 1.028152e-07  
+</pre>

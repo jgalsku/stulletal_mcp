@@ -3,3 +3,690 @@ number of iterations = 2000
 number of iterations = 2000 
 number of iterations = 2000 
 number of iterations = 2000 
+$SVAD_identifier
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1001    1433    1862    1861    2290    2718 
+
+$agey
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  15.00   45.00   61.00   59.56   76.75  101.00 
+
+$spheno_occipital
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  1.0000  1.0000  0.9943  1.0000  1.0000     120 
+
+$C1_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.5108  1.0000  1.0000     175 
+
+$C1_eburnation
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.00    0.00    0.00    0.18    0.00    1.00     166 
+
+$L1_spinous_process
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   2.000   2.000   1.597   2.000   2.000     273 
+
+$L1_sup_epiph
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   3.000   3.000   2.948   3.000   3.000     162 
+
+$L1_sup_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   1.225   1.000   3.000     191 
+
+$L1_inf_epiph
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   3.000   3.000   2.943   3.000   3.000     144 
+
+$L1_inf_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   1.259   2.000   3.000     179 
+
+$L5_sup_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   2.000   2.000   1.626   2.000   2.000     142 
+
+$L5_inf_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   2.000   1.553   2.000   2.000     172 
+
+$L5_sup_epiph
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   3.000   3.000   2.947   3.000   3.000     141 
+
+$L5_sup_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   1.288   2.000   3.000     160 
+
+$L5_inf_epiph
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   3.000   3.000   2.947   3.000   3.000     192 
+
+$L5_inf_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   1.292   2.000   3.000     215 
+
+$cerv_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.4898  1.0000  1.0000      38 
+
+$cerv_candlewax
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1981  0.0000  1.0000      44 
+
+$thoracic_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.4964  1.0000  1.0000      28 
+
+$thoracic_candlewax
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3707  1.0000  1.0000      32 
+
+$lumbar_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.000   1.000   0.582   1.000   1.000      40 
+
+$lumbar_candlewax
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3152  1.0000  1.0000      41 
+
+$S1_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   2.000   1.518   2.000   2.000     236 
+
+$S12_fusion
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   2.000   2.000   1.788   2.000   2.000     126 
+
+$sacral_elbow
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.05693 0.00000 1.00000      94 
+
+$sternum_dorsal_ridge
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.0982  0.0000  1.0000     325 
+
+$R2_rim_profile
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.7257  1.0000  1.0000     693 
+
+$R2_shingle
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1084  0.0000  1.0000     298 
+
+$R310_rim_profile
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   0.793   1.000   1.000     101 
+
+$R310_shingle
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1131  0.0000  1.0000      39 
+
+$Hum_LW
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1373  0.0000  1.0000      28 
+
+$Tib_LW
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1262  0.0000  1.0000      38 
+
+$Calc_LW
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1805  0.0000  1.0000     103 
+
+$Inno_LW
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1403  0.0000  1.0000      71 
+
+$parietal_depression
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.03488 0.00000 1.00000     133 
+
+$occipital_condyle
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.0413  0.0000  2.0000     136 
+
+$R1_Fusion
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.02189 0.00000 1.00000     157 
+
+$R2_cap
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1092  0.0000  1.0000     218 
+
+$clav_med_epiph
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   3.000   3.000   2.844   3.000   3.000     237 
+
+$clav_med_gravel
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.5082  1.0000  1.0000     303 
+
+$clav_med_macro
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.4772  1.0000  2.0000     348 
+
+$clav_lat_macro
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.6659  1.0000  1.0000     327 
+
+$glenoid_fossa
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   2.000   2.000   1.697   2.000   2.000      65 
+
+$glenoid_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   2.000   1.434   2.000   2.000      68 
+
+$lesser_tubercle_bumps
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3251  1.0000  1.0000      80 
+
+$lesser_tubercle_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   1.371   2.000   2.000     100 
+
+$humerus_greater_tubercle
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3829  1.0000  1.0000     182 
+
+$med_epicondyle
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.4081  1.0000  1.0000     186 
+
+$lat_epicondyle
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.6141  1.0000  1.0000     176 
+
+$radius_tuberosity_ridge
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1628  0.0000  1.0000      76 
+
+$ulna_exostoses
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.08438 0.00000 1.00000     122 
+
+$trapezium_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.0859  0.0000  1.0000     499 
+
+$fovea_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.6829  1.0000  1.0000     152 
+
+$fem_head_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.2671  0.0000  2.0000     134 
+
+$troch_fossa_exost
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.6842  1.0000  1.0000     130 
+
+$troch_med_surf_exost
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.5192  1.0000  1.0000     125 
+
+$fibula_mercury_wings
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1014  0.0000  1.0000     201 
+
+$SI_fusion
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.07896 0.00000 2.00000      51 
+
+$iliac_crest_fusion
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   3.000   3.000   2.915   3.000   3.000      89 
+
+$ilium_tuberculum
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.2107  0.0000  2.0000      92 
+
+$ant_inf_spine_exos
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3422  1.0000  1.0000     103 
+
+$acet_post_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  1.0000  1.0000  0.7687  1.0000  1.0000      89 
+
+$acet_post_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.1666  0.0000  1.0000      89 
+
+$acet_end_lipping
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3394  1.0000  1.0000     113 
+
+$ischium_tub_margin_spur
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.08863 0.00000 1.00000      74 
+
+$Ischium_medial_spur
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.01843 0.00000 1.00000      82 
+
+$ischium_tub_bumps
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  1.0000  0.8512  1.0000  2.0000     110 
+
+$inferior_surf_porosity
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.3367  1.0000  1.0000     213 
+
+$sup_post_iliac_exos
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   1.000   1.000   0.991   1.000   1.000     155 
+
+$inf_post_iliac_exos
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  1.0000  1.0000  0.9827  1.0000  1.0000     207 
+
+$post_exost_complete
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  1.0000  1.0000  0.9831  1.0000  2.0000     168 
+
+$pubic_collar
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00000 0.00000 0.00000 0.07687 0.00000 1.00000     188 
+
+$symph_relief
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.00    1.00    1.00    1.39    2.00    2.00     173 
+
+$sup_apex
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.00    2.00    2.00    1.92    2.00    2.00     209 
+
+$ventral_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   2.000   2.000   2.104   3.000   3.000     186 
+
+$dorsal_margin
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   2.000   2.000   2.049   2.000   3.000     190 
+
+$troch_lat_surf
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0000  0.0000  0.6089  1.0000  3.0000     539 
+
+$rand_num
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.0000  0.2420  0.4890  0.4985  0.7590  0.9990 
+
+$spheno_occipital
+x
+   0    1 <NA> 
+   9 1581  120 
+
+$C1_lipping
+x
+   0    1 <NA> 
+ 751  784  175 
+
+$C1_eburnation
+x
+   0    1 <NA> 
+1266  278  166 
+
+$L1_spinous_process
+x
+   0    1    2 <NA> 
+ 227  125 1085  273 
+
+$L1_sup_epiph
+x
+   0    1    2    3 <NA> 
+  15    6   24 1503  162 
+
+$L1_sup_surf
+x
+   0    1    2    3 <NA> 
+  49 1099  351   20  191 
+
+$L1_inf_epiph
+x
+   0    1    2    3 <NA> 
+  14    9   29 1514  144 
+
+$L1_inf_surf
+x
+   0    1    2    3 <NA> 
+  30 1105  365   31  179 
+
+$L5_sup_margin
+x
+   0    1    2 <NA> 
+ 225  136 1207  142 
+
+$L5_inf_margin
+x
+   0    1    2 <NA> 
+ 203  281 1054  172 
+
+$L5_sup_epiph
+x
+   0    1    2    3 <NA> 
+  12    9   29 1519  141 
+
+$L5_sup_surf
+x
+   0    1    2    3 <NA> 
+  34 1085  382   49  160 
+
+$L5_inf_epiph
+x
+   0    1    2    3 <NA> 
+  13   10   22 1473  192 
+
+$L5_inf_surf
+x
+   0    1    2    3 <NA> 
+  31 1053  355   56  215 
+
+$cerv_lipping
+x
+   0    1 <NA> 
+ 853  819   38 
+
+$cerv_candlewax
+x
+   0    1 <NA> 
+1336  330   44 
+
+$thoracic_lipping
+x
+   0    1 <NA> 
+ 847  835   28 
+
+$thoracic_candlewax
+x
+   0    1 <NA> 
+1056  622   32 
+
+$lumbar_lipping
+x
+   0    1 <NA> 
+ 698  972   40 
+
+$lumbar_candlewax
+x
+   0    1 <NA> 
+1143  526   41 
+
+$S1_margin
+x
+   0    1    2 <NA> 
+ 228  254  992  236 
+
+$S12_fusion
+x
+   0    1    2 <NA> 
+ 126   84 1374  126 
+
+$sacral_elbow
+x
+   0    1 <NA> 
+1524   92   94 
+
+$sternum_dorsal_ridge
+x
+   0    1 <NA> 
+1249  136  325 
+
+$R2_rim_profile
+x
+   0    1 <NA> 
+ 279  738  693 
+
+$R2_shingle
+x
+   0    1 <NA> 
+1259  153  298 
+
+$R310_rim_profile
+x
+   0    1 <NA> 
+ 333 1276  101 
+
+$R310_shingle
+x
+   0    1 <NA> 
+1482  189   39 
+
+$Hum_LW
+x
+   0    1 <NA> 
+1451  231   28 
+
+$Tib_LW
+x
+   0    1 <NA> 
+1461  211   38 
+
+$Calc_LW
+x
+   0    1 <NA> 
+1317  290  103 
+
+$Inno_LW
+x
+   0    1 <NA> 
+1409  230   71 
+
+$parietal_depression
+x
+   0    1 <NA> 
+1522   55  133 
+
+$occipital_condyle
+x
+   0    1    2 <NA> 
+1526   31   17  136 
+
+$R1_Fusion
+x
+   0    1 <NA> 
+1519   34  157 
+
+$R2_cap
+x
+   0    1 <NA> 
+1329  163  218 
+
+$clav_med_epiph
+x
+   0    1    2    3 <NA> 
+  38   43   30 1362  237 
+
+$clav_med_gravel
+x
+   0    1 <NA> 
+ 692  715  303 
+
+$clav_med_macro
+x
+   0    1    2 <NA> 
+ 784  506   72  348 
+
+$clav_lat_macro
+x
+   0    1 <NA> 
+ 462  921  327 
+
+$glenoid_fossa
+x
+   0    1    2 <NA> 
+  89  321 1235   65 
+
+$glenoid_lipping
+x
+   0    1    2 <NA> 
+ 292  346 1004   68 
+
+$lesser_tubercle_bumps
+x
+   0    1 <NA> 
+1100  530   80 
+
+$lesser_tubercle_margin
+x
+   0    1    2 <NA> 
+ 118  777  715  100 
+
+$humerus_greater_tubercle
+x
+   0    1 <NA> 
+ 943  585  182 
+
+$med_epicondyle
+x
+   0    1 <NA> 
+ 902  622  186 
+
+$lat_epicondyle
+x
+   0    1 <NA> 
+ 592  942  176 
+
+$radius_tuberosity_ridge
+x
+   0    1 <NA> 
+1368  266   76 
+
+$ulna_exostoses
+x
+   0    1 <NA> 
+1454  134  122 
+
+$trapezium_lipping
+x
+   0    1 <NA> 
+1107  104  499 
+
+$fovea_margin
+x
+   0    1 <NA> 
+ 494 1064  152 
+
+$fem_head_surf
+x
+   0    1    2 <NA> 
+1293  145  138  134 
+
+$troch_fossa_exost
+x
+   0    1 <NA> 
+ 499 1081  130 
+
+$troch_med_surf_exost
+x
+   0    1 <NA> 
+ 762  823  125 
+
+$fibula_mercury_wings
+x
+   0    1 <NA> 
+1356  153  201 
+
+$SI_fusion
+x
+   0    1    2 <NA> 
+1572   43   44   51 
+
+$iliac_crest_fusion
+x
+   0    1    2    3 <NA> 
+  19   15   50 1537   89 
+
+$ilium_tuberculum
+x
+   0    1    2 <NA> 
+1355  185   78   92 
+
+$ant_inf_spine_exos
+x
+   0    1 <NA> 
+1057  550  103 
+
+$acet_post_margin
+x
+   0    1 <NA> 
+ 375 1246   89 
+
+$acet_post_surf
+x
+   0    1 <NA> 
+1351  270   89 
+
+$acet_end_lipping
+x
+   0    1 <NA> 
+1055  542  113 
+
+$ischium_tub_margin_spur
+x
+   0    1 <NA> 
+1491  145   74 
+
+$Ischium_medial_spur
+x
+   0    1 <NA> 
+1598   30   82 
+
+$ischium_tub_bumps
+x
+   0    1    2 <NA> 
+ 513  812  275  110 
+
+$inferior_surf_porosity
+x
+   0    1 <NA> 
+ 993  504  213 
+
+$sup_post_iliac_exos
+x
+   0    1 <NA> 
+  14 1541  155 
+
+$inf_post_iliac_exos
+x
+   0    1 <NA> 
+  26 1477  207 
+
+$post_exost_complete
+x
+   0    1    2 <NA> 
+  56 1456   30  168 
+
+$pubic_collar
+x
+   0    1 <NA> 
+1405  117  188 
+
+$symph_relief
+x
+   0    1    2 <NA> 
+ 122  694  721  173 
+
+$sup_apex
+x
+   0    1    2 <NA> 
+  44   32 1425  209 
+
+$ventral_margin
+x
+   0    1    2    3 <NA> 
+  70  206  744  504  186 
+
+$dorsal_margin
+x
+   0    1    2    3 <NA> 
+  59  126 1017  318  190 
+
+$troch_lat_surf
+x
+   0    1    2    3 <NA> 
+ 756  191  150   74  539 
+

@@ -1,0 +1,73 @@
+---
+title: "Cross-validation report for acet_post_margin (j = 60)"
+output: html_document
+---
+# Summary information
+1621 non-missing observations  
+2 ordinal categories  
+Candidate model tolerance is cand_tol = 0.05  
+Minimum scaling exponent size is scale_exp_min = 0.01  
+Maxiumum value for beta2 is beta2_max = 5  
+
+# Negative log-likelihood by model and fold
+<pre>
+                           fold1    fold2    fold3    fold4  
+pow-law-ord-const       119.5630 147.4953 127.9485 117.0814  
+pow-law-ord-lin-pos-int 119.4507 147.2331 127.6347 117.1940  
+log-ord-const           119.6983 145.4653 128.0351 116.4090  
+log-ord-lin-pos-int     119.8570 145.4653 128.0351 116.4090  
+lin-ord-const           118.9364 151.7545 127.3182 119.6436  
+lin-ord-lin-pos-int     126.3139 147.1979 127.3182 117.2082  
+</pre>
+# Automated model selection
+<pre>
+                    model reject reject-reason neg-log-lik delta-neg-log-lik model-rank  
+1       pow-law-ord-const  FALSE                  512.0882         2.4805261          4  
+2 pow-law-ord-lin-pos-int  FALSE                  511.5125         1.9048252          3  
+3           log-ord-const  FALSE                  509.6077         0.0000000          1  
+4     log-ord-lin-pos-int  FALSE                  509.7664         0.1586921          2  
+5           lin-ord-const  FALSE                  517.6526         8.0449081          5  
+6     lin-ord-lin-pos-int   TRUE   Large beta2    518.0382         8.4305267         NA  
+</pre>
+# Univariate fits for each model
+## pow_law_ord_const  
+<pre>
+           main      fold1     fold2       fold3     fold4  
+b1    0.1865342 0.03870031 0.4315282 0.016751524 0.2992174  
+tau1  1.9802249 1.15210705 4.8639440 1.063106722 3.0028478  
+beta1 0.1311972 0.01592779 0.7545067 0.006191333 0.3187191  
+</pre>
+## pow_law_ord_lin_pos_int  
+<pre>
+             main      fold1       fold2       fold3       fold4  
+b1     0.87966816  0.7779396  1.06666826  1.01180449  0.94680147  
+tau1  25.13143942 17.2605548 50.01303177 40.29345474 32.49645215  
+beta1  5.12125572  3.0131966 13.01280605  6.79774697  7.26289050  
+beta2  0.01262296  0.0139836  0.01124003  0.02645868  0.01169248  
+</pre>
+## log_ord_const  
+<pre>
+           main     fold1     fold2     fold3     fold4  
+tau1  3.6542520 3.6569003 3.6465034 3.6524366 3.6608654  
+beta1 0.3456833 0.3551276 0.3387953 0.3466802 0.3417088  
+</pre>
+## log_ord_lin_pos_int  
+<pre>
+              main        fold1        fold2        fold3        fold4  
+tau1  3.654252e+00 3.6551350219 3.646503e+00 3.652437e+00 3.660865e+00  
+beta1 3.456832e-01 0.3443407018 3.387953e-01 3.466801e-01 3.417088e-01  
+beta2 5.148994e-09 0.0005285988 3.592309e-10 2.787506e-09 9.582907e-11  
+</pre>
+## lin_ord_const  
+<pre>
+          main    fold1    fold2    fold3    fold4  
+tau1  40.26054 40.38106 39.95402 40.11947 40.58522  
+beta1 16.27827 16.96730 15.65372 16.52263 15.90545  
+</pre>
+## lin_ord_lin_pos_int  
+<pre>
+             main        fold1        fold2         fold3       fold4  
+tau1  39.07218304 3.677300e+01 39.154308427  4.011948e+01 39.52672762  
+beta1  8.28418305 1.159392e-29  9.968370951  1.652263e+01  9.00972097  
+beta2  0.01623293 2.665331e+28  0.009679326 5.729249e-139  0.01304069  
+</pre>

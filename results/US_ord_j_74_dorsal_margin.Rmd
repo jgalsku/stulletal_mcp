@@ -1,0 +1,85 @@
+---
+title: "Cross-validation report for dorsal_margin (j = 74)"
+output: html_document
+---
+# Summary information
+1520 non-missing observations  
+4 ordinal categories  
+Candidate model tolerance is cand_tol = 0.05  
+Minimum scaling exponent size is scale_exp_min = 0.01  
+Maxiumum value for beta2 is beta2_max = 5  
+
+# Negative log-likelihood by model and fold
+<pre>
+                           fold1    fold2    fold3    fold4  
+pow-law-ord-const       257.0196 265.2284 262.8816 259.2872  
+pow-law-ord-lin-pos-int 257.0157 266.3997 262.8813 260.8066  
+log-ord-const           257.0165 265.2259 262.8794 259.2869  
+log-ord-lin-pos-int     257.0121 266.4020 262.8794 260.8034  
+lin-ord-const           268.2676 273.1870 273.9154 265.0488  
+lin-ord-lin-pos-int     268.2676 298.5271 273.9157 265.8556  
+</pre>
+# Automated model selection
+<pre>
+                    model reject    reject-reason neg-log-lik delta-neg-log-lik model-rank  
+1       pow-law-ord-const   TRUE Scaling exponent    1044.417       0.008125628         NA  
+2 pow-law-ord-lin-pos-int   TRUE Scaling exponent    1047.103       2.694585156         NA  
+3           log-ord-const  FALSE                     1044.409       0.000000000          1  
+4     log-ord-lin-pos-int  FALSE                     1047.097       2.688254698          2  
+5           lin-ord-const  FALSE                     1080.419      36.010261770          3  
+6     lin-ord-lin-pos-int   TRUE      Large beta2    1106.566      62.157477239         NA  
+</pre>
+# Univariate fits for each model
+## pow_law_ord_const  
+<pre>
+              main        fold1        fold2        fold3        fold4  
+b1    0.0003856092 0.0003670797 0.0003308246 0.0007386730 0.0003432510  
+tau1  1.0011442786 1.0010896537 1.0009914412 1.0021659327 1.0010197240  
+tau2  1.0013020235 1.0012385971 1.0011212508 1.0024922123 1.0011569065  
+tau3  1.0017226440 1.0016375392 1.0014758058 1.0033071018 1.0015353474  
+beta1 0.0001478914 0.0001405652 0.0001239897 0.0002861713 0.0001335721  
+</pre>
+## pow_law_ord_lin_pos_int  
+<pre>
+              main        fold1        fold2        fold3        fold4  
+b1    0.0003363516 3.551168e-04 0.0010176878 3.476749e-04 0.0003374391  
+tau1  1.0009999565 1.001054e+00 1.0030696304 1.001019e+00 1.0010093023  
+tau2  1.0011353448 1.001198e+00 1.0034504572 1.001172e+00 1.0011365647  
+tau3  1.0015024877 1.001584e+00 1.0045472698 1.001555e+00 1.0015093385  
+beta1 0.0001228184 1.358593e-04 0.0003226426 1.344628e-04 0.0001082634  
+beta2 0.0009204052 1.594533e-05 0.0033795062 4.363585e-07 0.0038768839  
+</pre>
+## log_ord_const  
+<pre>
+           main     fold1     fold2     fold3     fold4  
+tau1  2.9658207 2.9669242 2.9954313 2.9292496 2.9693483  
+tau2  3.3743658 3.3721152 3.3873407 3.3698318 3.3685469  
+tau3  4.4635210 4.4573738 4.4577515 4.4697153 4.4695408  
+beta1 0.3829583 0.3823828 0.3743338 0.3862397 0.3886603  
+</pre>
+## log_ord_lin_pos_int  
+<pre>
+              main        fold1       fold2        fold3       fold4  
+tau1  2.9715423495 2.967035e+00 3.011986167 2.929250e+00 2.989614688  
+tau2  3.3735685884 3.372096e+00 3.384659465 3.369832e+00 3.366306624  
+tau3  4.4636940682 4.457379e+00 4.458198276 4.469715e+00 4.469584281  
+beta1 0.3646880168 3.819961e-01 0.315581557 3.862395e-01 0.320510488  
+beta2 0.0009196981 1.880995e-05 0.003391467 8.296683e-09 0.003870545  
+</pre>
+## lin_ord_const  
+<pre>
+           main     fold1     fold2     fold3     fold4  
+tau1   6.582033  6.839235  8.042174  4.489489  6.818961  
+tau2  25.356830 25.446609 25.900275 24.969344 25.123095  
+tau3  83.187695 82.766261 82.932227 83.718997 83.345366  
+beta1 20.785287 20.596714 20.376266 21.113735 21.044487  
+</pre>
+## lin_ord_lin_pos_int  
+<pre>
+              main        fold1        fold2        fold3        fold4  
+tau1  6.905101e+00 6.839131e+00 1.884220e+01 4.488710e+00  8.562670969  
+tau2  2.545338e+01 2.544657e+01 2.867895e+01 2.496903e+01 25.683728376  
+tau3  8.311621e+01 8.276628e+01 7.963833e+01 8.371909e+01 82.904911755  
+beta1 2.023102e+01 2.059674e+01 7.144289e-07 2.111377e+01 18.015732427  
+beta2 4.283839e-04 3.403408e-20 4.605791e+05 1.365413e-07  0.002597906  
+</pre>
